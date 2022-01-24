@@ -6,11 +6,11 @@ import AppRouter from './AppRouter';
 
 const App = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Provider store={store}>
                 <AppRouter/>
             </Provider>
-        </BrowserRouter>
+        </HashRouter>
     );
 };
 
