@@ -20,7 +20,6 @@ export enum RouteNames {
 export type RouteType = {
     path: string,
     element: React.ComponentType;
-    exact?: boolean
 }
 
 export const publicRoutes: RouteType[] = [
